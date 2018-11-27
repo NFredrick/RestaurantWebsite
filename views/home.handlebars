@@ -1,0 +1,71 @@
+<h1>Welcome to We Make Pizza</h1>
+<div id="carousel">
+    <img src="/images/pizza1.jpg" id="pic" class="center" height="400" width="600">
+    <img src="/images/arrow.png" id="nav" class="center" height="50" width="50"> 
+</div>
+<script>
+    var images = ["/images/pizza1.jpg", "/images/pizza2.jpg", "/images/pizza3.jpg", "/images/pizza4.jpg", "/images/pizza5.jpg"];
+    var curr = 0;
+
+    window.onload = document.getElementById("nav").addEventListener("click", function() {
+        curr += 1;
+        if (curr == 5) {
+            curr = 0;
+        }
+        document.getElementById("pic").src = images[curr];
+    });
+</script>
+<h3>Our Story</h3>
+<p style="width:1200px">
+    We Make Pizza has been a family owned business for over 200 days. We pride ourselves on baking the finest pizzas on our block. 
+    Ingredients are locally sourced from Fred Meyer and are always held to the highest of standards. A purchase from We Make Pizza 
+    is a guarantee that you will receive pizza.
+</p>
+<h3>Our Future</h3>
+<p style="width:1200px">
+    In the short term we hope to finally receive our third costumer. However, we are realists and more concerned with the long term 
+    growth of our business. In the next 2 years we are striving to have a We Make Pizza on every continent and be invited to join
+    the United Nations. Please come in and help us reach our goal.
+</p>
+<h3>What is Pizza?</h3>
+<h4>According to wikipedia:</h4> 
+<div style="width:1200px; height: 200px; overflow-y:scroll; margin-left:10%">
+    
+Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, 
+cheese, and various other ingredients (anchovies, olives, meat, etc.) baked at a high temperature, traditionally in a wood-fired oven.[1] In 
+formal settings, like a restaurant, pizza is eaten with knife and fork, but in casual settings it is cut into wedges to be eaten while held 
+in the hand. Small pizzas are sometimes called pizzettas.
+
+The term pizza was first recorded in the 10th century in a Latin manuscript from the Southern Italian town of Gaeta in Lazio, on the border 
+with Campania.[2] Modern pizza was invented in Naples, and the dish and its variants have since become popular in many countries.[3] Today 
+it is one of the most popular foods in the world and a common fast food item in Europe and North America, available at pizzerias (restaurants 
+specializing in pizza), restaurants offering Mediterranean cuisine, and via pizza delivery.[3][4] Many companies sell ready-baked frozen 
+pizzas to be reheated in an ordinary home oven.
+
+The Associazione Verace Pizza Napoletana (lit. True Neapolitan Pizza Association) is a non-profit organization founded in 1984 with headquarters 
+in Naples which aims to promote traditional Neapolitan pizza.[5] In 2009, upon Italy's request, Neapolitan pizza was registered with the European 
+Union as a Traditional Speciality Guaranteed dish.[6][7]
+
+Foods similar to pizza have been made since the neolithic age.[15] Records of people adding other ingredients to bread to make it more flavorful 
+can be found throughout ancient history. The ancient Greeks supplemented their bread with oils, herbs, and cheese,[16][17] and in the 6th century 
+BC, the Persian soldiers of Achaemenid Empire during the rule King Darius I baked flatbreads with cheese and dates on top of their battle shields.
+[18][19] An early reference to a pizza-like food occurs in the Aeneid, when Celaeno, queen of the Harpies, foretells that the Trojans would not 
+find peace until they are forced by hunger to eat their tables (Book III). In Book VII, Aeneas and his men are served a meal that includes round 
+cakes (like pita bread) topped with cooked vegetables. When they eat the bread, they realize that these are the "tables" prophesied by Celaeno.[20]
+
+Modern pizza evolved from similar flatbread dishes in Naples in the 18th or early 19th century.[21] Prior to that time, flatbread was often topped 
+with ingredients such as garlic, salt, lard, cheese, and basil. It is uncertain when tomatoes were first added and there are many conflicting claims.
+[21] Until about 1830, pizza was sold from open-air stands and out of pizza bakeries, and pizzerias keep this old tradition alive today.
+
+A popular contemporary legend holds that the archetypal pizza, pizza Margherita, was invented in 1889, when the Royal Palace of Capodimonte commissioned 
+the Neapolitan pizzaiolo (pizza maker) Raffaele Esposito to create a pizza in honor of the visiting Queen Margherita. Of the three different pizzas he 
+created, the Queen strongly preferred a pizza swathed in the colors of the Italian flag: red (tomato), green (basil), and white (mozzarella). 
+Supposedly, this kind of pizza was then named after the Queen,[22] although recent research casts doubt on this legend.[23] An official letter of 
+recognition from the Queen's "head of service" remains on display in Esposito's shop, now called the Pizzeria Brandi.[24]
+
+Pizza was brought to the United States with Italian immigrants in the late nineteenth century[25] and first appeared in areas where Italian immigrants 
+concentrated. The country's first pizzeria, Lombardi's, opened in 1905.[26] Following World War II, veterans returning from the Italian Campaign after 
+being introduced to Italy's native cuisine proved a ready market for pizza in particular.[27] Since then pizza consumption has exploded in the U.S.[28] 
+Pizza chains such as Domino's, Pizza Hut, and Papa John's, pizzas from take and bake pizzerias, and chilled or frozen pizzas from supermarkets make 
+pizza readily available nationwide. 13% of the US population consumes pizza on any given day.[29]
+</div>
